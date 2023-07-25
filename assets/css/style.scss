@@ -15,6 +15,7 @@ body {
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 header {
@@ -45,7 +46,11 @@ header {
                         font-weight: 500;
                         font-size: 18px;
                         color: #05060a;
-                        transition: .5s;
+                        transition: 1s;
+                    }
+                    a:hover {
+                        color: #fca61f;
+                        transition: 0.5s;
                     }
                 }
             }
@@ -90,6 +95,7 @@ header {
         flex-wrap: wrap;
         margin-top: 80px;
         height: 606px;
+        
 
         .left {
             border: 1px solid none;
@@ -131,6 +137,12 @@ header {
                         box-shadow: 0 4px 60px rgba(252, 166, 31, .35);
                         color: #fff;
                         background-color: #fca61f;
+                        transition: 1.2s;
+                    }
+                    button:hover {
+                        height: 82px;
+                        width: 185px;
+                        transition: 1.2s;
                     }
                 }
             }
@@ -333,9 +345,9 @@ header {
         .product-top {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
+            // flex-wrap: wrap;
 
-            // gap: 160px;
+            gap: 55px;
             .product-left {
                 img {
                     height: 340px;
@@ -347,8 +359,8 @@ header {
             .product-right {
                 display: flex;
                 flex-direction: column;
-                height: 340px;
-                width: 580px;
+                // height: 340px;
+                width: 47%;
 
                 h2 {
                     font-family: 'Poppins', sans-serif;
@@ -384,11 +396,11 @@ header {
             display: flex;
             justify-content: space-between;
             margin-top: 80px;
-            flex-wrap: wrap;
-
+            // flex-wrap: wrap;
+            gap: 55px;
             .product-left {
-                height: 440px;
-                width: 580px;
+                // height: 440px;
+                width: 47%;
                 padding-top: 40px;
 
                 h2 {
@@ -439,8 +451,8 @@ header {
         .product-top {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
-
+            // flex-wrap: wrap;
+            gap: 55px;
             .product-left2 {
                 img {
                     height: 312px;
@@ -452,8 +464,8 @@ header {
             .product-right {
                 display: flex;
                 flex-direction: column;
-                height: 340px;
-                width: 580px;
+                // height: 340px;
+                width: 47%;
 
                 h2 {
                     font-family: 'Poppins', sans-serif;
@@ -489,11 +501,11 @@ header {
             display: flex;
             justify-content: space-between;
             margin-top: 80px;
-            flex-wrap: wrap;
-
+            // flex-wrap: wrap;
+            gap: 55px;
             .product-left {
-                height: 440px;
-                width: 580px;
+                // height: 440px;
+                width: 47%;
                 padding-top: 40px;
 
                 h2 {
@@ -542,7 +554,7 @@ header {
     .service {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
 
         .tittle {
             margin-bottom: 50px;
@@ -566,10 +578,10 @@ header {
         .box-row {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
-
+            // flex-wrap: wrap;
+            
             .box {
-                width: 230px;
+                width: 19%;
 
                 h3 {
                     font-family: 'Poppins', sans-serif;
@@ -611,11 +623,11 @@ header {
         height: 312px;
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
-
+        // flex-wrap: wrap;
+        gap: 168px;
         .left {
             height: 312px;
-            width: 587px;
+            width: 47%;
 
             h2 {
                 font-family: 'Poppins';
@@ -662,11 +674,11 @@ header {
     .box-row {
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
-
+        // flex-wrap: wrap;
+        gap: 40px;
         .box1 {
             height: 260px;
-            width: 443px;
+            width: 35%;
 
             h3 {
                 font-family: 'Poppins', sans-serif;
@@ -702,7 +714,7 @@ header {
 
         .box2 {
             height: 260px;
-            width: 756px;
+            width: 61%;
 
             h3 {
                 font-family: 'Poppins', sans-serif;
@@ -745,6 +757,7 @@ header {
 
     .swiper {
         .cards {
+            border-radius: 50px;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -762,7 +775,7 @@ footer {
     padding: 65px 0;
 
     .container {
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
 
         .contact {
             display: flex;
@@ -809,9 +822,9 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .container {
-        padding: 0 25px;
+        padding: 0 23px;
     }
 
     header {
@@ -819,7 +832,7 @@ footer {
 
             height: 140px;
             align-items: center;
-
+            justify-content: space-between;
             .logo {
                 img {
                     height: 44px;
@@ -917,7 +930,7 @@ footer {
                 }
 
                 .product-right {
-                    width: 410px;
+                    width: 42%;
                 }
             }
 
@@ -925,7 +938,7 @@ footer {
                 margin-top: 0px;
 
                 .product-left {
-                    width: 400px;
+                    width: 40%;
                     padding-top: 0px;
 
                     h2 {
@@ -959,7 +972,7 @@ footer {
                 }
 
                 .product-right {
-                    width: 410px;
+                    width: 42%;
                 }
             }
 
@@ -967,7 +980,7 @@ footer {
                 margin-top: 0px;
 
                 .product-left {
-                    width: 400px;
+                    width: 40%;
                     padding-top: 0px;
 
                     h2 {
@@ -993,11 +1006,11 @@ footer {
                 margin-top: 20px;
 
                 .box {
-                    width: 158px;
+                    width: 20%;
                 }
 
                 .box:first-child {
-                    width: 185px;
+                    width: 19%;
                 }
             }
         }
@@ -1006,7 +1019,7 @@ footer {
     #api-first {
         .content {
             .left {
-                width: 425px;
+                width: 43%;
             }
 
             .right {
@@ -1031,7 +1044,74 @@ footer {
         }
     }
 }
+@media (max-width: 960px) {
+    #products1 {
+        .flex-column {
+            .product-top {
+                height: 510px;
+                gap: 159px;
+                .product-left {
+                    img {
+                        width: 381px;
+                    }
+                }
+            }
+            .product-buttom {
+                gap: 159px;
+            }
+        }
+    }
+    #products2 {
+        .flex-column {
+            .product-top {
+                gap: 159px;
+                .product-left2 {
+                    img {
+                        height: 312px;
+                        width: 381px;
+                        object-fit: cover;
+                    }
+                }
+            }
+    
+            .product-buttom {
+                gap: 155px;
+                .product-left {
+                    width: 40%;
+                }
+    
+                .product-right2 {
+                    img {
+                        height: 312px;
+                        width: 371px;
+                    }
+                }
+            }
+        }
+    }
+    #api-first {
+        .content {
+            gap: 155px ;
+            .left {
+                width: 43%;
+            }
 
+            .right {
+                width: 356px;
+
+                img {
+                    width: 356px;
+                }
+            }
+        }
+    }
+    #two-box {
+        padding-top: 50px;
+        .box-row {
+            gap: 40px;
+        }
+    }
+}
 
 @media (max-width: 768px) {
     #introduction {
@@ -1075,12 +1155,9 @@ footer {
             flex-direction: column;
 
             .product-top {
-                height: 340px;
                 display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-
-                // gap: 160px;
+                gap: 55px;
+                height: auto;
                 .product-left {
                     img {
                         height: 340px;
@@ -1090,62 +1167,31 @@ footer {
                 }
 
                 .product-right {
-                    display: flex;
                     flex-direction: column;
-                    height: 340px;
-                    width: 291px;
+                    width: 38%;
 
                     h2 {
-                        font-family: 'Poppins', sans-serif;
-                        font-style: normal;
-                        font-weight: 600;
                         font-size: 24px;
-                        line-height: 128%;
-                        letter-spacing: .01em;
-                        color: #07003b;
-                        margin-bottom: 45px;
                     }
-
-                    h4 {
-                        color: rgb(252, 166, 31);
-                        font-size: 22px;
-                        font-weight: bold;
-                    }
-
                     p {
-                        font-family: 'Noto Sans', sans-serif;
-                        font-style: normal;
-                        font-weight: 400;
                         font-size: 16px;
                         line-height: 22px;
-                        color: #5d616f;
-                        margin: 0;
-                        display: block;
                     }
                 }
             }
 
             .product-buttom {
                 display: flex;
-                justify-content: space-between;
+                gap: 55px;
                 margin-top: 80px;
-                flex-wrap: wrap;
-
                 .product-left {
                     height: 440px;
-                    width: 291px;
+                    width: 38%;
                     padding-top: 40px;
 
                     p {
-
-                        font-family: 'Noto Sans', sans-serif;
-                        font-style: normal;
-                        font-weight: 400;
                         font-size: 16px;
                         line-height: 22px;
-                        color: #5d616f;
-                        margin: 0;
-                        display: block;
                     }
                 }
 
@@ -1168,8 +1214,8 @@ footer {
             margin: 0px;
 
             .product-top {
-                height: 470px;
-
+                height: auto;
+                gap: 55px;
                 .product-left2 {
                     img {
                         width: 375px;
@@ -1177,7 +1223,7 @@ footer {
                 }
 
                 .product-right {
-                    width: 291px;
+                    width: 38%;
 
                     h2 {
                         font-size: 24px;
@@ -1191,11 +1237,10 @@ footer {
             }
 
             .product-buttom {
-                margin-top: 0px;
-
+                margin-top: 80px;
+                gap: 55px;
                 .product-left {
-                    height: 400px;
-                    width: 291px;
+                    width: 38%;
                     padding-top: 0px;
 
                     h2 {
@@ -1230,6 +1275,7 @@ footer {
             }
 
             .box-row {
+                flex-wrap: wrap;
                 .box {
                     padding-top: 25px;
                     width: 333px;
@@ -1244,8 +1290,9 @@ footer {
 
     #api-first {
         .content {
+            gap: 69px;
             .left {
-                width: 370px;
+                width: 48%;
 
                 h2 {
                     font-size: 32px;
@@ -1268,13 +1315,16 @@ footer {
         }
     }
     #two-box {
-        margin-top: 50px;
+        margin-top: 0px;
+        padding-bottom: 60px;
         .box-row {
             .box1 {
+                height: auto;
                 width: 250px;
-            }
+                        }
 
             .box2 {
+                height: auto;
                 width: 430px;
             }
         }
@@ -1297,6 +1347,10 @@ footer {
             }
         }
     }
+}
+
+@media (max-width: 576px) {
+
 }
 
 @media (max-width: 468px) {
@@ -1550,7 +1604,7 @@ footer {
 
             // gap: 20px;
             .box1 {
-                height: inherit;
+                height: auto;
                 width: 314px;
                 margin-bottom: 40px;
 
@@ -1564,7 +1618,7 @@ footer {
             }
 
             .box2 {
-                height: inherit;
+                height: auto;
                 width: 314px;
                 margin-bottom: 40px;
 
@@ -1643,4 +1697,9 @@ footer {
             }
         }
     }
+}
+
+
+@media (max-width: 320px) {
+
 }
